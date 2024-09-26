@@ -1,0 +1,25 @@
+# Sistema de Gerenciamento de Biblioteca
+
+Este projeto é um sistema de gerenciamento de biblioteca desenvolvido em Python, com o uso do banco de dados SQLite para armazenar informações sobre livros, usuários e empréstimos. O objetivo é facilitar o controle de livros emprestados e devoluções.
+
+## Funcionalidades
+
+- **Cadastro de Livros**: Adicionar novos livros com título, autor, editora, ano de publicação e ISBN.
+- **Cadastro de Usuários**: Registrar usuários com nome, sobrenome, endereço, email e telefone.
+- **Empréstimos de Livros**: Registrar o empréstimo de livros aos usuários, com data de empréstimo e data prevista de devolução.
+- **Atualização de Devoluções**: Atualizar a data de devolução de livros já emprestados.
+- **Consulta de Livros Emprestados**: Exibir a lista de livros que estão atualmente emprestados, com os respectivos usuários.
+
+## Tecnologias Utilizadas
+
+- **Linguagem**: Python 3.x
+- **Banco de Dados**: SQLite3
+
+## Como Executar
+
+Siga as instruções abaixo para clonar o repositório e executar o sistema:
+
+1. Clone o repositório para sua máquina local:
+
+   
+   git clone https://github.com/seuusuario/sistema-biblioteca.git
